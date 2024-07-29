@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Rapid Search",
+    "version": "1.0",
+    "description": "Extension pour rechercher rapidement des informations sans changer de page",
+    "permissions": ["activeTab"],
+    "action": {
+        "default_index": "index.html",
+        "default_icon": {
+            "16": "first.png",
+            "48": "second.png",
+            "128": "third.png"
+        }
+    }
+}
