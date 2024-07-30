@@ -1,7 +1,7 @@
 document.getElementById("google").addEventListener("click", () => {
     const query = document.getElementById("searchBox").value
     if(query){
-        const urlgoogle = `https://google.com/search?q=${encodeURIComponent(query)}`
+        const urlgoogle = `https://www.google.com/search?q=${encodeURIComponent(query)}`
         chrome.tabs.create({url: urlgoogle})
     }
 })
